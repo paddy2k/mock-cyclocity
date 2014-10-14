@@ -1,3 +1,5 @@
+'use strict';
+
 var express = require('express'),
     pem = require('pem'),
     https = require('spdy'),
@@ -16,6 +18,5 @@ pem.createCertificate({days:1, selfSigned:true}, function(err, keys){
 });
 
 app.get('/', function(request, response){
-  response.end('AARG2222E');
 })
 console.log("Server listening on: https://localhost:" + config.port);
