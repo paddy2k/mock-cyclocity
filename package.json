@@ -1,0 +1,34 @@
+{
+  "name": "mock-cyclocity",
+  "version": "0.0.1",
+  "description": "Mock data Cyclocity bicycle sharing schemes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paddy2k/mock-cyclocity.git"
+  },
+  "keywords": [
+    "cyclocity",
+    "jcdecaux",
+    "bikes",
+    "velib",
+    "dublinbikes"
+  ],
+  "author": "@paddy2k",
+  "license": "GNU GPL v3",
+  "bugs": {
+    "url": "https://github.com/paddy2k/mock-cyclocity/issues"
+  },
+  "homepage": "https://github.com/paddy2k/mock-cyclocity",
+  "dependencies": {
+    "express": "^4.9.7",
+    "pem": "^1.4.1",
+    "promise": "^6.0.0",
+    "socket.io": "^1.1.0",
+    "spdy": "^1.29.0"
+  }
+}
